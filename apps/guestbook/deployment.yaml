@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: argocd-e2e-container
 spec:
-  replicas: 3
+  replicas: 5
   selector:
     matchLabels:
       app: argocd-e2e-container
